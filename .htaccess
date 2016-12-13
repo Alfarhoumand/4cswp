@@ -1,0 +1,61 @@
+# BEGIN Old domain redirect
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Set "protossl" to "s" if we were accessed via https://.  This is used later
+  # if you enable "www." stripping or enforcement, in order to ensure that you
+  # don't bounce between http and https.
+  RewriteRule ^ - [E=protossl]
+  RewriteCond %{HTTPS} on
+  RewriteRule ^ - [E=protossl:s]
+
+  # Make sure Authorization HTTP header is available to PHP even when running as
+  # CGI or FastCGI.
+  RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+  # Redirect from old blog domain.
+  RewriteCond %{HTTP_HOST} ^4csblog\.gia\.edu$ [NC]
+  RewriteRule ^(.*)$ http%{ENV:protossl}://4cs.gia.edu%{REQUEST_URI} [R=301,QSA,L]
+</IfModule>
+# END Old domain redirect
+
+# BEGIN Securing htaccess
+<files ~ "^.*\.([Hh][Tt][Aa])">
+  order allow,deny
+  deny from all
+  satisfy all
+</files>
+# END Securing htaccess
+
+# BEGIN Securing wp-config
+<files wp-config.php>
+  order allow,deny
+  deny from all
+</files>
+# END Securing wp-config
+
+# BEGIN Securing all files ends with admin with IP range while-list
+#<FilesMatch "admin\.php$">
+#    Order deny,allow
+#    Deny from all
+#    Allow from 205.143.120.
+#</FilesMatch>
+# Second IP range
+#<FilesMatch "admin\.php$">
+#    Order deny,allow
+#    Deny from all
+#    Allow from 205.143.123.
+#</FilesMatch>
+# END Securing all files ends with admin with ip range while-list
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

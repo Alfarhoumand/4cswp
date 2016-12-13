@@ -1,0 +1,2254 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Solstice\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-21 13:24-0700\n"
+"PO-Revision-Date: Tue Oct 18 2016 08:10:20 GMT-0700 (Pacific Daylight Time)\n"
+"Last-Translator: Yahia Aboushadi <yabousha@gia.edu>\n"
+"Language-Team: \n"
+"Language: Chinese (China)\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Loco-Target-Locale: zh_CN"
+
+#. Name of the template
+msgid "Blog List"
+msgstr ""
+
+#: ../page-templates/blog-list.php:21 ../page-templates/grid-full-width.php:23 ..
+#: page-templates/blog-grid.php:19
+msgid "Latest Stories"
+msgstr ""
+
+#: ../page-templates/blog-list.php:23 ../page-templates/grid-full-width.php:25 ..
+#: page-templates/blog-grid.php:21
+msgid "Popular Stories"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Grid Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Contact"
+msgstr ""
+
+#. Name of the template
+msgid "Blog Grid"
+msgstr ""
+
+#: ../templates/featured/featured.php:48 ../templates/featured/featured.php:91
+msgid " "
+msgstr ""
+
+#: ../templates/content/content-single.php:22 ../page.php:28
+msgid "Pages:"
+msgstr ""
+
+#: ../templates/content/content-single.php:33
+msgid "By:"
+msgstr ""
+
+#: ../templates/content/content-single.php:35
+msgid "Tags:"
+msgstr ""
+
+#: ../templates/content/content-single.php:56
+msgid "There is no author description yet."
+msgstr ""
+
+#: ../templates/blog/blog-grid/content-latest-grid.php:56 ../templates/blog/blog-
+#: grid/content-latest.php:56 ../templates/blog/blog-grid/content-popular-grid.
+#: php:48 ../templates/blog/blog-grid/content-popular.php:48 ..
+#: templates/blog/blog-list/content-latest.php:60 ../templates/blog/blog-
+#: list/content-popular.php:51 ..
+#: framework/includes/widgets/WP_Latest_Posts_Widget.class.php:61 ..
+#: framework/includes/rs-frontend-functions.php:396
+msgid " , "
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Latest_Posts_Widget.class.php:11
+msgid "Displays the most latest posts"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Latest_Posts_Widget.class.php:12
+msgid "solstice: Latest Posts"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Latest_Posts_Widget.class.php:42
+msgid "Popular Posts"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Latest_Posts_Widget.class.php:96 ..
+#: framework/includes/widgets/WP_Custom_Ads_Widget.class.php:77 ..
+#: framework/includes/widgets/WP_Social_Widget.class.php:131
+msgid "Title:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Latest_Posts_Widget.class.php:99
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Custom_Ads_Widget.class.php:11
+msgid "Displays ads"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Custom_Ads_Widget.class.php:12
+msgid "solstice: Custom Ads"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Custom_Ads_Widget.class.php:41 ..
+#: framework/admin/metaboxes/custom-ads.php:7 ../framework/admin/options/custom-
+#: ads.php:7
+msgid "Custom Ads"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Custom_Ads_Widget.class.php:80
+msgid "Image URL:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Custom_Ads_Widget.class.php:83
+msgid "Image Link:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:11
+msgid "Displays social icons"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:12
+msgid "solstice: Social Icons"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:42 ..
+#: framework/admin/options/general.php:107
+msgid "Social Icons"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:134
+msgid "Facebook:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:137
+msgid "Twitter:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:140
+msgid "Instagram:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:143
+msgid "Pinterset:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:146
+msgid "Google Plus:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:149
+msgid "Tumblr:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:152
+msgid "Youtube:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:155
+msgid "Vine:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:158
+msgid "Linkedin:"
+msgstr ""
+
+#: ../framework/includes/widgets/WP_Social_Widget.class.php:161
+msgid "Envelope:"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:27
+msgid "You can edit your menu content on the Menus screen in the Appearance section."
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:177
+msgid "Blog"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:209
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:212
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:215
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:215
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:218
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:218
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:225
+msgid "Asides"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:228
+msgid "Galleries"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:231
+msgid "Images"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:234
+msgid "Videos"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:237
+msgid "Quotes"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:240
+msgid "Links"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:243
+msgid "Statuses"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:246
+msgid "Audios"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:249
+msgid "Chats"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:252
+msgid "404"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:255
+msgid "Archives"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:422
+msgid "Pingback:"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:422 ../framework/includes/rs-
+#: frontend-functions.php:451
+msgid "Edit"
+msgstr ""
+
+#: ../framework/includes/rs-frontend-functions.php:455
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:347
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:352
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:357
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:362
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:377
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:399 ..
+#: framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3034
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:400 ..
+#: framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2837
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:833 ..
+#: framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3443
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:940
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:940 ..
+#: framework/includes/plugins/tgm/class-tgm-plugin-activation.php:943
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:943
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:1121 ..
+#: framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2833
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:1886
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2240
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2285
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2288
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2291
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2294
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2376
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2496
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2505
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2575
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2617
+msgid "Activate"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2793
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:2819
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3369
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3375
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3375 ..
+#: framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3381
+msgid "Show Details"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3375 ..
+#: framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3381
+msgid "Hide Details"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3381
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../framework/includes/plugins/tgm/class-tgm-plugin-activation.php:3383
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../framework/includes/rs-helper-functions.php:152
+msgid "Default"
+msgstr ""
+
+#: ../framework/includes/rs-filters-config.php:63
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-latest-post.php:7
+msgid " Latest Post"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-latest-post.php:13 ..
+#: framework/admin/metaboxes/blog-popular-post.php:13 ..
+#: framework/admin/options/customizer.php:546
+msgid "Categories"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-latest-post.php:14
+msgid "Select desired categories for latset post"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-latest-post.php:25 ..
+#: framework/admin/metaboxes/blog-popular-post.php:25
+msgid "Post Per Page"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-latest-post.php:26 ..
+#: framework/admin/metaboxes/blog-popular-post.php:26
+msgid "The number of items to show."
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-popular-post.php:7
+msgid " Popular Post"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-popular-post.php:14
+msgid "Select desired categories"
+msgstr ""
+
+#: ../framework/admin/metaboxes/contact.php:13
+msgid "Contact Form ID"
+msgstr ""
+
+#: ../framework/admin/metaboxes/custom-ads.php:14 ..
+#: framework/admin/options/custom-ads.php:15
+msgid "Ads"
+msgstr ""
+
+#: ../framework/admin/metaboxes/custom-ads.php:15 ..
+#: framework/admin/options/custom-ads.php:16
+msgid "Custom Ads image"
+msgstr ""
+
+#: ../framework/admin/metaboxes/custom-ads.php:20 ..
+#: framework/admin/options/custom-ads.php:21
+msgid "Link"
+msgstr ""
+
+#: ../framework/admin/metaboxes/custom-ads.php:21 ..
+#: framework/admin/options/custom-ads.php:22
+msgid "Custom Ads link"
+msgstr ""
+
+#: ../framework/admin/metaboxes/post-gallery.php:12
+msgid "Gallery Slider"
+msgstr ""
+
+#: ../framework/admin/metaboxes/post-gallery.php:13
+msgid "Upload images or add from media library."
+msgstr ""
+
+#: ../framework/admin/metaboxes/post-gallery.php:15 ..
+#: framework/admin/options/fonts.php:144 ../framework/admin/options/fonts.php:
+#: 167 ../framework/admin/options/fonts.php:202 ../framework/admin/options/fonts.
+#: php:218 ../framework/admin/options/fonts.php:244 ..
+#: framework/admin/options/fonts.php:270 ../framework/admin/options/fonts.php:286
+msgid "Title"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-featured-post.php:7
+msgid " Featured Post"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-featured-post.php:12
+msgid "Tag"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-featured-post.php:13 ..
+#: framework/admin/options/slider.php:78
+msgid "Select desired tag"
+msgstr ""
+
+#: ../framework/admin/metaboxes/layout.php:7
+msgid "Sidebar Settings"
+msgstr ""
+
+#: ../framework/admin/metaboxes/layout.php:8
+msgid "Change the main theme's layout and configure it."
+msgstr ""
+
+#: ../framework/admin/metaboxes/layout.php:14
+msgid "Sidebar"
+msgstr ""
+
+#: ../framework/admin/metaboxes/layout.php:15 ../framework/admin/options/footer.
+#: php:29 ../framework/admin/options/footer.php:39 ..
+#: framework/admin/options/footer.php:49
+msgid "Select custom sidebar"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:7
+msgid " Featured Slider"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:13 ..
+#: framework/admin/options/slider.php:31 ../framework/admin/options/slider.php:
+#: 77 ../framework/admin/options-init.php:209
+msgid "Tags"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:14 ..
+#: framework/admin/options/slider.php:32
+msgid "Select desired tag for slider"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:27 ..
+#: framework/admin/options/slider.php:44
+msgid "No of Slides"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:28 ..
+#: framework/admin/options/slider.php:45
+msgid "The number of items to show on slider."
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:34 ..
+#: framework/admin/options/slider.php:51
+msgid "Duration of Slides"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:35 ..
+#: framework/admin/options/slider.php:52
+msgid "The slider duration."
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:41 ..
+#: framework/admin/options/slider.php:58
+msgid "Always Show Navigation ?"
+msgstr ""
+
+#: ../framework/admin/metaboxes/blog-slider.php:42 ..
+#: framework/admin/options/slider.php:59
+msgid "The slider navigation settings."
+msgstr ""
+
+#: ../framework/admin/metaboxes/post-video.php:12
+msgid "Video URL"
+msgstr ""
+
+#: ../framework/admin/metaboxes/post-video.php:13
+msgid "YouTube or Vimeo video URL"
+msgstr ""
+
+#: ../framework/admin/metaboxes-init.php:40
+msgid "Blog Options"
+msgstr ""
+
+#: ../framework/admin/metaboxes-init.php:67
+msgid "Contact Options"
+msgstr ""
+
+#: ../framework/admin/metaboxes-init.php:93 ../framework/admin/metaboxes-init.php:
+#: 162 ../framework/admin/redux-
+#: extensions/extensions/metaboxes/extension_metaboxes.php:843
+msgid "Options"
+msgstr ""
+
+#: ../framework/admin/metaboxes-init.php:116
+msgid "Video Post Options"
+msgstr ""
+
+#: ../framework/admin/metaboxes-init.php:139
+msgid "Gallery Post Options"
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:7
+msgid "Topheader"
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:8
+msgid "Change the topheader section configuration."
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:14
+msgid "Enable Top Header"
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:15
+msgid "If on, top header will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:21
+msgid "Content"
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:22
+msgid "Add content for topheader."
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:27
+msgid "Appear On Page"
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:29
+msgid "All Pages"
+msgstr ""
+
+#: ../framework/admin/options/topheader.php:30
+msgid "Only Home Page"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:7
+msgid "Social Site"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:8
+msgid "Easily add social icons."
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:15 ..
+#: framework/admin/options/author-social.php:14
+msgid "Facebook"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:21 ..
+#: framework/admin/options/author-social.php:21
+msgid "Twitter"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:27
+msgid "Instagram"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:33 ..
+#: framework/admin/options/author-social.php:35
+msgid "Pinterest"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:39
+msgid "Google Plus"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:45
+msgid "Tumblr"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:51
+msgid "Youtube"
+msgstr ""
+
+#: ../framework/admin/options/social-site.php:57
+msgid "Envelope"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:6
+msgid "Slider/Featured"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:7
+msgid "Slider and featured post settings."
+msgstr ""
+
+#: ../framework/admin/options/slider.php:14
+msgid "Slider/Featured Settings"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:19
+msgid "Slider/Featured Area"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:20
+msgid "If on, slider and featured area will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/slider.php:26
+msgid "Slider Settings"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:65
+msgid "Featured Post Settings"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:70
+msgid "Display Featured Posts Area?"
+msgstr ""
+
+#: ../framework/admin/options/slider.php:71
+msgid "Show/Hide Featured Posts Area below slider."
+msgstr ""
+
+#: ../framework/admin/options/preheader.php:7
+msgid "Preheader"
+msgstr ""
+
+#: ../framework/admin/options/preheader.php:8
+msgid "Change the preheader section configuration."
+msgstr ""
+
+#: ../framework/admin/options/preheader.php:15
+msgid "If on, search form will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:7
+msgid "Post Social Share"
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:8
+msgid "Enable or disable post social share buttons."
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:15
+msgid "If on, facebook social share will get displayed."
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:22
+msgid "If on, twitter social share will get displayed."
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:28
+msgid "Reddit"
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:29
+msgid "If on, reddit social share will get displayed."
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:36
+msgid "If on, pinterest social share will get displayed."
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:42
+msgid "Linkedin"
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:43
+msgid "If on, linkedin social share will get displayed."
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:49
+msgid "Digg"
+msgstr ""
+
+#: ../framework/admin/options/author-social.php:50
+msgid "If on, digg social share will get displayed."
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:7
+msgid "Favicon Settings"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:8
+msgid ""
+"Configure the favicon in a lot of plataforms. Generate and download your "
+"package at http://realfavicongenerator.net/"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:15
+msgid "Generate and download your image package at http://realfavicongenerator.net/"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:21
+msgid "Default Favicons"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:25
+msgid "Favicon 16x16"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:26
+msgid "Upload favicon image in the following dimensions (16x16)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:34
+msgid "Favicon 32x32"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:35
+msgid "Upload favicon image in the following dimensions (32x32)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:43
+msgid "Favicon 96x96"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:44
+msgid "Upload favicon image in the following dimensions (96x96)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:52
+msgid "Favicon 160x160"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:53
+msgid "Upload favicon image in the following dimensions (160x160)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:61
+msgid "Favicon 192x192"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:62
+msgid "Upload favicon image in the following dimensions (192x192)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:72
+msgid "Apple Favicons"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:76
+msgid "Favicon 57x57"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:77
+msgid "Upload favicon image in the following dimensions (57x57)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:85
+msgid "Favicon 114x114"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:86
+msgid "Upload favicon image in the following dimensions (114x114)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:94
+msgid "Favicon 72x72"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:95
+msgid "Upload favicon image in the following dimensions (72x72)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:103
+msgid "Favicon 144x144"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:104
+msgid "Upload favicon image in the following dimensions (144x144)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:112
+msgid "Favicon 60x60"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:113
+msgid "Upload favicon image in the following dimensions (60x60)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:121
+msgid "Favicon 120x120"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:122
+msgid "Upload favicon image in the following dimensions (120x120)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:130
+msgid "Favicon 76x76"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:131
+msgid "Upload favicon image in the following dimensions (76x76)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:139
+msgid "Favicon 152x152"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:140
+msgid "Upload favicon image in the following dimensions (152x152)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:148
+msgid "Favicon 180x180"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:149
+msgid "Upload favicon image in the following dimensions (180x180)"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:159
+msgid "Windows Metro"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:165
+msgid "Custom Tile Background Color"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:166
+msgid "Pick a background color for the tile."
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:173
+msgid "Tile Image 70x70"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:174
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: 70x70. "
+"Recommended: 128x128."
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:182
+msgid "Tile Image 150x150"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:183
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: "
+"150x150. Recommended: 270x270."
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:191
+msgid "Tile Image 310x150"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:192
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: "
+"310x150. Recommended: 558x270."
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:200
+msgid "Tile Image 310x310"
+msgstr ""
+
+#: ../framework/admin/options/favicon.php:201
+msgid ""
+"Upload favicon image in the following dimensions. Minimum image size: "
+"310x310. Recommended: 558x558."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:7
+msgid "Customizer"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:8 ../framework/admin/options/fonts.
+#: php:8
+msgid "Check child sections to style properly the correct area of the theme."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:18 ..
+#: framework/admin/options/general.php:23
+msgid "Pagination"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:19
+msgid "Configure pagination styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:26
+msgid "Button Fill Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:33
+msgid "Button Fill Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:40
+msgid "Button Text Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:47
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:54
+msgid "Button Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:61
+msgid "Button Border Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:72
+msgid "Top Header"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:73 ..
+#: framework/admin/options/customizer.php:113 ../framework/admin/options/general.
+#: php:89
+msgid "Configure menu styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:80 ..
+#: framework/admin/options/customizer.php:363
+msgid "Background Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:87
+msgid "Text Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:94 ..
+#: framework/admin/options/customizer.php:736
+msgid "Link Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:101 ..
+#: framework/admin/options/customizer.php:743
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:112
+msgid "Menu"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:119
+msgid "Main Header Settings"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:124
+msgid "Main Menu Item Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:131
+msgid "Main Menu Item Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:138 ..
+#: framework/admin/options/customizer.php:405
+msgid "Social Icon Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:145 ..
+#: framework/admin/options/customizer.php:412
+msgid "Social Icon Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:152
+msgid "Top Menu Settings"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:157
+msgid "Top Menu Item Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:164
+msgid "Top Menu Item Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:171
+msgid "Top Menu Background Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:178
+msgid "Top Menu Top Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:185
+msgid "Top Menu Bottom Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:192
+msgid "Top Menu Icon Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:199
+msgid "Search Icon Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:206
+msgid "Search Icon Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:218
+msgid "Configure category styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:224
+msgid "Category Text Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:231
+msgid "Category Text Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:242
+msgid "Blog Post"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:243
+msgid "Configure blog list and blog grid styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:249 ..
+#: framework/admin/options/customizer.php:281 ..
+#: framework/admin/options/customizer.php:443 ..
+#: framework/admin/options/customizer.php:495 ..
+#: framework/admin/options/customizer.php:551 ..
+#: framework/admin/options/customizer.php:682
+msgid "Title Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:256 ..
+#: framework/admin/options/customizer.php:288 ..
+#: framework/admin/options/customizer.php:450
+msgid "Title Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:263 ..
+#: framework/admin/options/customizer.php:295 ..
+#: framework/admin/options/customizer.php:457
+msgid "Meta Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:274
+msgid "Blog Single Post"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:275
+msgid "Configure blog post element styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:302
+msgid "Meta Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:309
+msgid "Social Share Button Text Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:316
+msgid "Social Share Button Text Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:323
+msgid "Social Share Button Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:330
+msgid "Social Share Button Border Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:337
+msgid "Social Share Button Background Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:344
+msgid "Social Share Button Background Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:356 ..
+#: framework/admin/options/footer.php:7
+msgid "Footer"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:357
+msgid "Configure footer styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:370
+msgid "Top Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:377
+msgid "General Link Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:384
+msgid "General Link Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:391
+msgid "Widget Area Top and Bottom Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:398
+msgid "Widget List Bottom Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:424 ../framework/admin/options/fonts.
+#: php:155
+msgid "Widgets"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:425
+msgid "Configure widgets styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:431 ../framework/admin/options/fonts.
+#: php:162
+msgid "Latest Post"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:436 ..
+#: framework/admin/options/customizer.php:469 ..
+#: framework/admin/options/customizer.php:623
+msgid "Widget Title Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:464 ../framework/admin/options/fonts.
+#: php:197
+msgid "Social Media"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:476 ..
+#: framework/admin/options/customizer.php:584
+msgid "Icon Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:483 ..
+#: framework/admin/options/customizer.php:591 ..
+#: framework/admin/options/customizer.php:610
+msgid "Icon Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:490 ../framework/admin/options/fonts.
+#: php:213
+msgid "Tag Cloud"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:502
+msgid "Tag Text Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:509
+msgid "Tag Text Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:516 ..
+#: framework/admin/options/customizer.php:696
+msgid "Fill Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:523 ..
+#: framework/admin/options/customizer.php:603
+msgid "Fill Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:530 ..
+#: framework/admin/options/customizer.php:710
+msgid "Outline Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:537
+msgid "Outline Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:558
+msgid "Category Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:565
+msgid "Category Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:572
+msgid "Number Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:598
+msgid "Mail Poet Widget"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:618
+msgid "Global Widget Headings"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:630
+msgid "Widget Title Background Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:637
+msgid "Widget Title Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:645
+msgid "Footer Widget Headings"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:650
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:657
+msgid "Footer Widget Title Background Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:664
+msgid "Footer Widget Title Border Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:675
+msgid "Latest/Popular Stories"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:676
+msgid "Configure stories styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:689
+msgid "Title Active Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:703
+msgid "Fill Active Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:717
+msgid "Outline Active Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:729
+msgid "Global"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:730
+msgid "Configure global element styles."
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:750
+msgid "Page Title Color"
+msgstr ""
+
+#: ../framework/admin/options/customizer.php:757
+msgid "Page Title Hover Color"
+msgstr ""
+
+#: ../framework/admin/options/custom-ads.php:8
+msgid "Change the custom ads section configuration."
+msgstr ""
+
+#: ../framework/admin/options/export.php:3
+msgid "Import/Export"
+msgstr ""
+
+#: ../framework/admin/options/export.php:4
+msgid "Import/Export Options"
+msgstr ""
+
+#: ../framework/admin/options/export.php:11
+msgid "Import Export"
+msgstr ""
+
+#: ../framework/admin/options/export.php:12
+msgid "Save and restore your Redux options"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:7
+msgid "Fonts"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:18 ../framework/admin/options/general.php:
+#: 35
+msgid "Home Page"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:19
+msgid "Configure homepage styles."
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:26 ../framework/admin/options/fonts.php:
+#: 95 ../framework/admin/options/fonts.php:177
+msgid "Post Title"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:36
+msgid "Main Menu Item"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:46
+msgid "Header Menu Item"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:56 ../framework/admin/options/fonts.php:
+#: 105 ../framework/admin/options/fonts.php:187
+msgid "Meta"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:66
+msgid "Category Box"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:76
+msgid "Excerpt"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:87
+msgid "Post Page"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:88 ../framework/admin/options/fonts.php:156
+msgid "Configure blog single styles."
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:115
+msgid "Headings"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:125
+msgid "Body"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:136
+msgid "Latest/Popular"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:137
+msgid "Configure latest/popular fonts."
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:228
+msgid "Tag Category"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:265
+msgid "Text Widget"
+msgstr ""
+
+#: ../framework/admin/options/fonts.php:281
+msgid "Global Widget"
+msgstr ""
+
+#: ../framework/admin/options/custom_code.php:7
+msgid "Custom CSS"
+msgstr ""
+
+#: ../framework/admin/options/custom_code.php:8
+msgid "Easily add custom CSS to your website."
+msgstr ""
+
+#: ../framework/admin/options/custom_code.php:15
+msgid "CSS Code"
+msgstr ""
+
+#: ../framework/admin/options/custom_code.php:16
+msgid ""
+"Insert your custom CSS code right here. It will be displayed globally in the "
+"website."
+msgstr ""
+
+#: ../framework/admin/options/general.php:7
+msgid "General Settings"
+msgstr ""
+
+#: ../framework/admin/options/general.php:8
+msgid "Configure easily the basic theme's settings."
+msgstr ""
+
+#: ../framework/admin/options/general.php:16
+msgid "General"
+msgstr ""
+
+#: ../framework/admin/options/general.php:17
+msgid "Configure general styles."
+msgstr ""
+
+#: ../framework/admin/options/general.php:24
+msgid "Choose template for footer."
+msgstr ""
+
+#: ../framework/admin/options/general.php:26
+msgid "Standard"
+msgstr ""
+
+#: ../framework/admin/options/general.php:36
+msgid "Choose template for homepage."
+msgstr ""
+
+#: ../framework/admin/options/general.php:38
+msgid "List"
+msgstr ""
+
+#: ../framework/admin/options/general.php:39
+msgid "Grid"
+msgstr ""
+
+#: ../framework/admin/options/general.php:48 ..
+#: framework/admin/options/sideheader.php:20
+msgid "Logo"
+msgstr ""
+
+#: ../framework/admin/options/general.php:49
+msgid "Upload the logo that will be displayed in the header."
+msgstr ""
+
+#: ../framework/admin/options/general.php:55
+msgid "Sticky Logo"
+msgstr ""
+
+#: ../framework/admin/options/general.php:56
+msgid "Upload logo for sticky header."
+msgstr ""
+
+#: ../framework/admin/options/general.php:62
+msgid "Footer Logo"
+msgstr ""
+
+#: ../framework/admin/options/general.php:63
+msgid "Upload logo for footer section."
+msgstr ""
+
+#: ../framework/admin/options/general.php:68
+msgid "Home Excerpt Length"
+msgstr ""
+
+#: ../framework/admin/options/general.php:73
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../framework/admin/options/general.php:74
+msgid "Custom sidebars can be assigned to any page or post."
+msgstr ""
+
+#: ../framework/admin/options/general.php:75
+msgid "You can add as many custom sidebars as you need."
+msgstr ""
+
+#: ../framework/admin/options/general.php:80
+msgid "Open Post In New Window"
+msgstr ""
+
+#: ../framework/admin/options/general.php:81
+msgid "If on, post will be displayed in new window."
+msgstr ""
+
+#: ../framework/admin/options/general.php:88
+msgid "Navigation"
+msgstr ""
+
+#: ../framework/admin/options/general.php:95
+msgid "Template"
+msgstr ""
+
+#: ../framework/admin/options/general.php:96
+msgid "Choose template for menu."
+msgstr ""
+
+#: ../framework/admin/options/general.php:98
+msgid "Sticky"
+msgstr ""
+
+#: ../framework/admin/options/general.php:99
+msgid "Fixed"
+msgstr ""
+
+#: ../framework/admin/options/general.php:108
+msgid "If on, social icons will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/general.php:115
+msgid "Post Meta Data Settings"
+msgstr ""
+
+#: ../framework/admin/options/general.php:116
+msgid "Show/Hide Post meta data"
+msgstr ""
+
+#: ../framework/admin/options/general.php:123
+msgid "show date"
+msgstr ""
+
+#: ../framework/admin/options/general.php:124
+msgid "If on, date will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/general.php:130
+msgid "show views count"
+msgstr ""
+
+#: ../framework/admin/options/general.php:131
+msgid "If on, views count will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/general.php:137
+msgid "show comment count"
+msgstr ""
+
+#: ../framework/admin/options/general.php:138
+msgid "If on, comment count will be displayed"
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:7
+msgid "Left Slide Out Sidebar"
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:8
+msgid "Change the left side header section configuration."
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:14
+msgid "Side Header sidebar configuration"
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:21
+msgid "Upload the logo that will be displayed in the Slide Out Sidebar."
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:26
+msgid "Enable Side Header"
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:27
+msgid "If on, side header will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:33
+msgid "Side Header bar configuration"
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:38
+msgid "Enable Copyright"
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:39
+msgid "If on, side header copyright will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:45 ../framework/admin/options/footer.
+#: php:64
+msgid "Copyright Content"
+msgstr ""
+
+#: ../framework/admin/options/sideheader.php:46 ../framework/admin/options/footer.
+#: php:65
+msgid "Place any text to be displayed."
+msgstr ""
+
+#: ../framework/admin/options/footer.php:8
+msgid "Change the footer section configuration."
+msgstr ""
+
+#: ../framework/admin/options/footer.php:16
+msgid "Footer sidebar configuration"
+msgstr ""
+
+#: ../framework/admin/options/footer.php:21
+msgid "Enable Social Icons"
+msgstr ""
+
+#: ../framework/admin/options/footer.php:22
+msgid "If on, social icon will be displayed."
+msgstr ""
+
+#: ../framework/admin/options/footer.php:28
+msgid "Footer Sidebar 1"
+msgstr ""
+
+#: ../framework/admin/options/footer.php:38
+msgid "Footer Sidebar 2"
+msgstr ""
+
+#: ../framework/admin/options/footer.php:48
+msgid "Footer Sidebar 3"
+msgstr ""
+
+#: ../framework/admin/options/footer.php:59
+msgid "Footer bar configuration"
+msgstr ""
+
+#: ../framework/admin/options/latest-popular.php:7
+msgid "Latest/Popular Post"
+msgstr ""
+
+#: ../framework/admin/options/latest-popular.php:8
+msgid "Change the latest/popular section configuration."
+msgstr ""
+
+#: ../framework/admin/options/latest-popular.php:14
+msgid "Show Posts"
+msgstr ""
+
+#: ../framework/admin/options/latest-popular.php:15
+msgid "If off, only latest post will get displayed."
+msgstr ""
+
+#: ../framework/admin/options-init.php:111
+msgid "Section via hook"
+msgstr ""
+
+#: ../framework/admin/options-init.php:112
+msgid ""
+"This is a section created by adding a filter to the sections array. Can be "
+"used by child themes to add/remove sections from the options."
+msgstr ""
+
+#: ../framework/admin/options-init.php:190
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../framework/admin/options-init.php:197 ../framework/admin/options-init.php:200
+msgid "Current theme preview"
+msgstr ""
+
+#: ../framework/admin/options-init.php:207
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../framework/admin/options-init.php:208
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../framework/admin/options-init.php:214
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../framework/admin/options-init.php:214
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../framework/admin/options-init.php:259
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../framework/admin/options-init.php:260
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../framework/admin/options-init.php:261
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../framework/admin/options-init.php:265
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../framework/admin/options-init.php:275
+msgid "Theme Information"
+msgstr ""
+
+#: ../framework/admin/options-init.php:276
+msgid "<p class=\"description\">More about our theme.</p>"
+msgstr ""
+
+#: ../framework/admin/options-init.php:290
+msgid "Documentation"
+msgstr ""
+
+#: ../framework/admin/options-init.php:301
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../framework/admin/options-init.php:302 ../framework/admin/options-init.php:308
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/admin/options-init.php:307
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../framework/admin/options-init.php:312
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../framework/admin/redux-extensions/extensions/metaboxes/extension_metaboxes.
+#: php:987
+msgid "Settings Imported!"
+msgstr ""
+
+#: ../framework/admin/redux-extensions/extensions/metaboxes/extension_metaboxes.
+#: php:990
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ../framework/admin/redux-extensions/extensions/metaboxes/extension_metaboxes.
+#: php:994 ../framework/admin/redux-
+#: extensions/extensions/metaboxes/extension_metaboxes.php:1275
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../framework/admin/redux-extensions/extensions/metaboxes/extension_metaboxes.
+#: php:997
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../framework/admin/redux-extensions/extensions/metaboxes/extension_metaboxes.
+#: php:1001
+msgid "Expand"
+msgstr ""
+
+#: ../framework/admin/redux-extensions/extensions/metaboxes/extension_metaboxes.
+#: php:1280
+msgid "warnings(s) were found!"
+msgstr ""
+
+#: ../functions.php:52
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:53
+msgid "Header Menu"
+msgstr ""
+
+#: ../404.php:16
+msgid "404 Page Not Found"
+msgstr ""
+
+#: ../comments.php:29
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:71
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:72
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this "
+"account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:81
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:88
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:94
+msgid "Website"
+msgstr ""
+
+#. Name of the theme
+msgid "Solstice"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "http://seaboardthemes.com/solstice-dark"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A versatile and powerful multipurpose WordPress blog theme perfect for the "
+"minimal loving creative. A stunning visual experience with responsive grid "
+"system layout optimized for mobile touch and swipe."
+msgstr ""
+
+#. Author of the theme
+msgid "SeaboardThemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://themeforest.net/user/seaboardthemes"
+msgstr ""
+
+#: ../templates/content-none.php:10
+msgid "Sorry No Post Found !"
+msgstr "对不起，没有找到帖子！"
+
+#: ../framework/includes/rs-frontend-functions.php:190
+msgid "1 search result for"
+msgstr "1 个搜索结果"
+
+#: ../framework/includes/rs-frontend-functions.php:193
+msgid "search results for"
+msgstr "搜索结果"
+
+#: ../framework/includes/rs-frontend-functions.php:196
+msgid "Search results for"
+msgstr "搜索结果"
+
+#: ../framework/includes/rs-frontend-functions.php:376
+msgid "YOU MIGHT ALSO LIKE"
+msgstr "你可能还喜欢"
+
+#: ../framework/includes/rs-helper-functions.php:350 ../framework/includes/rs-
+#: filters-config.php:17
+msgid "Views"
+msgstr "视图"
+
+# Search Header
+#: ../framework/admin/options/preheader.php:14 ..
+#: framework/admin/options/customizer.php:579
+msgid "Search"
+msgstr "搜索"
+
+#: ../framework/admin/options/customizer.php:217 ../framework/admin/options/fonts.
+#: php:239 ../framework/admin/options/fonts.php:254
+msgid "Category"
+msgstr "类别"
+
+#: ../framework/admin/options/general.php:27
+msgid "Load More"
+msgstr "装载更多"
+
+#: ../comments.php:25
+msgid "Comments"
+msgstr "评论"
+
+#: ../comments.php:32
+msgid "Older Comments"
+msgstr "较早的评论"
+
+#: ../comments.php:33
+msgid "Newer Comments"
+msgstr "最新评论"
+
+#: ../comments.php:64
+msgid "Leave a Comment"
+msgstr "留下评论"
+
+#: ../comments.php:65
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr "向 %s 留下评论"
+
+#: ../comments.php:66
+msgid "Cancel Comment"
+msgstr "取消评论"
+
+#: ../comments.php:67
+msgid "Post Comment"
+msgstr "发表评论"
+
+#: ../comments.php:69
+msgid "Comment"
+msgstr "评论"
