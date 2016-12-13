@@ -17,19 +17,22 @@
  *
  * @package WordPress
  */
+define('WP_HOME','http://4cs-wp-948272544.us-east-1.elb.amazonaws.com/');
+define('WP_SITEURL','http://4cs-wp-948272544.us-east-1.elb.amazonaws.com/');
 
-if ( isset( $_SERVER['HTTP_HOST'] ) ) :
-	// HTTP is still the default scheme for now.
-	$scheme = 'http';
-	// If we have detected that the end use is HTTPS, make sure we pass that
-	// through here, so <img> tags and the like don't generate mixed-mode
-	// content warnings.
-	if ( ! empty( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] != 'off' ) {
-		$scheme = 'https';
-	}
-	define( 'WP_HOME', $scheme . '://' . $_SERVER['HTTP_HOST'] );
-	define( 'WP_SITEURL', $scheme . '://' . $_SERVER['HTTP_HOST'] );
-endif;
+//if ( isset( $_SERVER['HTTP_HOST'] ) ) :
+//	// HTTP is still the default scheme for now.
+//	$scheme = 'http';
+//	// If we have detected that the end use is HTTPS, make sure we pass that
+//	// through here, so <img> tags and the like don't generate mixed-mode
+//	// content warnings.
+//	if ( ! empty( $_SERVER['HTTPS'] ) && $_SERVER['HTTPS'] != 'off' ) {
+//		$scheme = 'https';
+//	}
+//	define( 'WP_HOME', $scheme . '://' . $_SERVER['HTTP_HOST'] );
+//	define( 'WP_SITEURL', $scheme . '://' . $_SERVER['HTTP_HOST'] );
+//endif;
+
 
 // Don't show deprecations; useful under PHP 5.5
 error_reporting( E_ALL ^ E_DEPRECATED );
